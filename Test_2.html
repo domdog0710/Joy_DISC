@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - DISC</title>
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+   
+<!-- partial:index.partial.html -->
+<html lang="en">
+
+<head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoGLdX_1Jp3xVqw8YRI64ANaknLZ7akWKAkw&usqp=CAU"> -->
+
+  <!-- Bootstrap core CSS -->
+  <link href="./Checkout example for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="./Checkout example for Bootstrap_files/form-validation.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+  <div class="card p-2" style="background-color: rgba(255, 174, 0, 0.363)">
+    <div class="text-center">
+      <h1 class="d-block mx-auto mb-3">適性評量第一階段</h1>
+      <p>[每題皆為單選題，認為自己個性描述偏向左邊或右邊，在選擇強或弱]</p>
+    </div>
+  </div>
+
+    <table class="text-center">
+      <tr>
+        <th style="background-color: rgba(255, 0, 128, 0.555)">&nbsp;</th>
+        <th style="color:white; background-color: rgba(255, 0, 128, 0.555)">強</th>
+        <th style="color:white; background-color: rgba(255, 0, 128, 0.555)">弱</th>
+        <th style="color:white; background-color: rgba(4, 0, 255, 0.774)">弱</th>
+        <th style="color:white; background-color: rgba(4, 0, 255, 0.774)">強</th>
+        <th style="background-color: rgba(4, 0, 255, 0.774)">&nbsp;</th>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">幽默</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left1-1" name="1" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left1-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left1-2" name="1" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left1-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right1-1" name="1" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right1-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right1-2" name="1" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right1-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">嚴肅</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">與世無爭</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left2-1" name="2" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left2-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left2-2" name="2" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left2-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right2-1" name="2" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right2-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right2-2" name="2" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right2-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">好勝</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">喜歡熱鬧</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left3-1" name="3" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left3-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left3-2" name="3" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left3-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right3-1" name="3" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right3-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right3-2" name="3" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right3-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">享受孤獨</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">淡薄名利</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left4-1" name="4" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left4-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left4-2" name="4" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left4-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right4-1" name="4" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right4-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right4-2" name="4" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right4-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">強烈企圖心</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">希望被肯定</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left5-1" name="5" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left5-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left5-2" name="5" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left5-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right5-1" name="5" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right5-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right5-2" name="5" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right5-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">隨緣</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">穩定就好</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left6-1" name="6" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left6-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left6-2" name="6" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left6-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right6-1" name="6" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right6-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right6-2" name="6" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right6-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">想創業</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">喜好冒險</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left7-1" name="7" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left7-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left7-2" name="7" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left7-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right7-1" name="7" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right7-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right7-2" name="7" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right7-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">喜好保守</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">不喜歡被打擾</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left8-1" name="8" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left8-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left8-2" name="8" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left8-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right8-1" name="8" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right8-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right8-2" name="8" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right8-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">主動交友</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">勤勞型</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left9-1" name="9" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left9-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left9-2" name="9" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left9-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right9-1" name="9" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right9-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right9-2" name="9" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right9-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">清閒型</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">嫉惡如仇</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left10-1" name="10" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left10-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left10-2" name="10" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left10-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right10-1" name="10" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right10-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right10-2" name="10" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right10-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">好相處</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">好動</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left11-1" name="11" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left11-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left11-2" name="11" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left11-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right11-1" name="11" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right11-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right11-2" name="11" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right11-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">好靜</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">冷漠</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left12-1" name="12" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left12-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left12-2" name="12" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left12-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right12-1" name="12" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right12-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right12-2" name="12" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right12-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">熱情</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">慷慨</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left13-1" name="13" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left13-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left13-2" name="13" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left13-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right13-1" name="13" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right13-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right13-2" name="13" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right13-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">節儉</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">不善表達於外</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left14-1" name="14" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left14-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left14-2" name="14" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left14-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right14-1" name="14" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right14-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right14-2" name="14" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right14-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">讚美別人</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">執著</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left15-1" name="15" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left15-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left15-2" name="15" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left15-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right15-1" name="15" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right15-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right15-2" name="15" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right15-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">富彈性</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">不善言詞</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left16-1" name="16" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left16-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left16-2" name="16" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left16-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right16-1" name="16" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right16-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right16-2" name="16" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right16-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">說服力</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">注重形象</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left17-1" name="17" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left17-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left17-2" name="17" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left17-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right17-1" name="17" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right17-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right17-2" name="17" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right17-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">不重外表</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">委屈求全</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left18-1" name="18" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left18-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left18-2" name="18" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left18-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right18-1" name="18" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right18-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right18-2" name="18" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right18-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">敢要求別人</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">自我激勵</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left19-1" name="19" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left19-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left19-2" name="19" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left19-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right19-1" name="19" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right19-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right19-2" name="19" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right19-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">需要鼓勵</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">大而化之</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left20-1" name="20" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left20-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left20-2" name="20" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left20-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right20-1" name="20" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right20-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right20-2" name="20" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right20-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">注意小節</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">謙虛有禮</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left21-1" name="21" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left21-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left21-2" name="21" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left21-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right21-1" name="21" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right21-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right21-2" name="21" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right21-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">率直純真</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">喜歡獨自工作</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left22-1" name="22" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left22-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left22-2" name="22" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left22-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right22-1" name="22" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right22-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right22-2" name="22" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right22-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">領導經驗豐富</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">活潑</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left23-1" name="23" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left23-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left23-2" name="23" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left23-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right23-1" name="23" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right23-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right23-2" name="23" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right23-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">文靜</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">獨善其身</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left24-1" name="24" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left24-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Left24-2" name="24" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left24-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right24-1" name="24" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right24-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="Right24-2" name="24" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right24-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">善解人意</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">合群</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left25-1" name="25" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left25-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Left25-2" name="25" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Left25-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right25-1" name="25" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right25-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="Right25-2" name="25" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="Right25-2">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">喜好獨行</td>
+      </tr>
+    </table>
+
+  <form class="needs-validation p-5" novalidate="" action="Test_2.html">
+    
+    <button class="btn btn-primary btn-lg btn-block" type="submit">下一個測驗</button>
+
+  </form>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1">© 2023 Joy</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="https://getbootstrap.com/docs/4.1/examples/checkout/?#">Privacy</a></li>
+        <li class="list-inline-item"><a href="https://getbootstrap.com/docs/4.1/examples/checkout/?#">Terms</a></li>
+        <li class="list-inline-item"><a href="https://getbootstrap.com/docs/4.1/examples/checkout/?#">Support</a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="./Checkout example for Bootstrap_files/jquery-3.3.1.slim.min.js.下載" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')
+  </script>
+  <script src="./Checkout example for Bootstrap_files/popper.min.js.下載"></script>
+  <script src="./Checkout example for Bootstrap_files/bootstrap.min.js.下載"></script>
+  <script src="./Checkout example for Bootstrap_files/holder.min.js.下載"></script>
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
