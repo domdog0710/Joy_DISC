@@ -10053,7 +10053,7 @@ function select(Questionid, ID)
   {
     var count = 0;
 
-    for(var j = 1; j <= 2; j++)
+    for(var j = 1; j <= 20; j++)
     {
       var x = document.getElementById("state" + j + "-" + i).value;
 
