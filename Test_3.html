@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - DISC</title>
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+   
+<!-- partial:index.partial.html -->
+<html lang="en">
+
+<head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoGLdX_1Jp3xVqw8YRI64ANaknLZ7akWKAkw&usqp=CAU"> -->
+
+  <!-- Bootstrap core CSS -->
+  <link href="./Checkout example for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="./Checkout example for Bootstrap_files/form-validation.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+  <div class="card p-2" style="background-color: rgba(255, 174, 0, 0.363)">
+    <div class="text-center">
+      <h1 class="d-block mx-auto mb-3">適性評量第二階段</h1>
+      <p>[每題皆為單選題，認為自己個性描述偏向左邊或右邊，在選擇強或弱]</p>
+    </div>
+  </div>
+
+  <form class="needs-validation" novalidate="" action="Test_4.html">    
+
+    <h4 class="text-center" id = "DISC1">橫坐標</h4> 
+
+    <table style="background-color: white" class="text-center">
+      <tr>
+        <th style="background-color: rgba(255, 0, 128, 0.555)">&nbsp;</th>
+        <th style="color:white; background-color: rgba(255, 0, 128, 0.555)">強</th>
+        <th style="color:white; background-color: rgba(255, 0, 128, 0.555)">弱</th>
+        <th style="color:white; background-color: rgba(4, 0, 255, 0.774)">弱</th>
+        <th style="color:white; background-color: rgba(4, 0, 255, 0.774)">強</th>
+        <th style="background-color: rgba(4, 0, 255, 0.774)">&nbsp;</th>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">愛說話</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="1-1" name="1" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+
+            <label class="custom-control-label" for="1-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="1-2" name="1" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="1-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="1-3" name="1" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="1-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="1-4" name="1" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="1-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">文靜</td>
+
+        <div class="invalid-feedback">
+          請選擇分數
+        </div>   
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">負責</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="2-1" name="2" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="2-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="2-2" name="2" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="2-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="2-3" name="2" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="2-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="2-4" name="2" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="2-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">隨意</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">勇敢</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="3-1" name="3" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="3-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="3-2" name="3" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="3-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="3-3" name="3" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="3-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="3-4" name="3" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="3-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">羞怯</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">專注</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="4-1" name="4" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="4-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="4-2" name="4" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="4-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="4-3" name="4" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="4-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="4-4" name="4" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="4-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">鬆懈</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">活潑</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="5-1" name="5" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="5-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="5-2" name="5" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="5-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="5-3" name="5" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="5-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="5-4" name="5" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="5-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">深思</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">勇於挑戰</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="6-1" name="6" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="6-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="6-2" name="6" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="6-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="6-3" name="6" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="6-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="6-4" name="6" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="6-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">接受現實</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">直接</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="7-1" name="7" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="7-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="7-2" name="7" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="7-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="7-3" name="7" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="7-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="7-4" name="7" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="7-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">拐彎抹角</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">固執己見</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="8-1" name="8" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="8-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="8-2" name="8" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="8-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="8-3" name="8" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="8-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="8-4" name="8" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="8-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">猶豫不定</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">勇於對抗</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="9-1" name="9" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="9-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="9-2" name="9" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="9-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="9-3" name="9" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="9-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="9-4" name="9" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="9-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">樂於支持</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">說得多</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="10-1" name="10" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="10-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="10-2" name="10" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="10-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="10-3" name="10" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="10-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="10-4" name="10" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="10-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">問得少</td>
+      </tr>
+    </table>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+    
+    <h4 class="text-center" id = "DISC1">縱坐標</h4> 
+
+    <table style="background-color: white" class="text-center">
+      <tr>
+        <th style="background-color: rgba(255, 0, 128, 0.555)">&nbsp;</th>
+        <th style="color:white; background-color: rgba(255, 0, 128, 0.555)">強</th>
+        <th style="color:white; background-color: rgba(255, 0, 128, 0.555)">弱</th>
+        <th style="color:white; background-color: rgba(4, 0, 255, 0.774)">弱</th>
+        <th style="color:white; background-color: rgba(4, 0, 255, 0.774)">強</th>
+        <th style="background-color: rgba(4, 0, 255, 0.774)">&nbsp;</th>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">不重形式</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="11-1" name="11" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="11-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="11-2" name="11" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="11-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="11-3" name="11" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="11-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="11-4" name="11" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="11-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">注重形式</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">熱情</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="12-1" name="12" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="12-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="12-2" name="12" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="12-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="12-3" name="12" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="12-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="12-4" name="12" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="12-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">冷酷</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">富幻想性</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="13-1" name="13" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="13-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="13-2" name="13" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="13-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="13-3" name="13" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="13-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="13-4" name="13" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="13-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">注重事實</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">以人為中心</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="14-1" name="14" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="14-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="14-2" name="14" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="14-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="14-3" name="14" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="14-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="14-4" name="14" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="14-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">以事為中心</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">容易激動</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="15-1" name="15" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="15-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="15-2" name="15" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="15-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="15-3" name="15" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="15-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="15-4" name="15" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="15-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">較為冷靜</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">容易親近</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="16-1" name="16" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="16-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="16-2" name="16" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="16-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="16-3" name="16" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="16-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="16-4" name="16" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="16-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">保持距離</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">無問不答</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="17-1" name="17" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="17-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="17-2" name="17" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="17-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="17-3" name="17" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="17-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="17-4" name="17" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="17-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">守口如瓶</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">外向</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="18-1" name="18" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="18-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="18-2" name="18" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="18-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="18-3" name="18" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="18-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="18-4" name="18" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="18-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">內向</td>
+      </tr>
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">自然的</td>
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="19-1" name="19" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="19-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(255, 0, 149, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="19-2" name="19" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="19-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="19-3" name="19" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="19-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: rgba(0, 132, 255, 0.329)">
+          <div class="custom-control custom-radio">
+            <input id="19-4" name="19" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="19-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: rgba(0, 132, 255, 0.329)">做作的</td>
+      </tr>
+
+<!-- --------------------------------------------------------------------------------------------------------------------->
+
+      <tr>
+        <td style="background-color: white">衝動的</td>
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="20-1" name="20" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="20-1">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="20-2" name="20" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="20-2">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="20-3" name="20" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="20-3">&nbsp;</label>
+          </div>
+        </td>
+
+        <td style="background-color: white">
+          <div class="custom-control custom-radio">
+            <input id="20-4" name="20" type="radio" class="custom-control-input" required="" onclick="Test3checked()">
+            <label class="custom-control-label" for="20-4">&nbsp;</label>
+          </div>
+        </td>
+        <td style="background-color: white">理智的</td>
+      </tr>
+    </table>
+
+    <h4 id = "Test3Horizontal">0</h4> 
+    <h4 id = "Test3Vertical">0</h4> 
+
+    <button class="btn btn-primary btn-lg btn-block" type="submit">下一個測驗</button>
+
+  </form>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1">© 2023 Joy</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="https://getbootstrap.com/docs/4.1/examples/checkout/?#">Privacy</a></li>
+        <li class="list-inline-item"><a href="https://getbootstrap.com/docs/4.1/examples/checkout/?#">Terms</a></li>
+        <li class="list-inline-item"><a href="https://getbootstrap.com/docs/4.1/examples/checkout/?#">Support</a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="./Checkout example for Bootstrap_files/jquery-3.3.1.slim.min.js.下載" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')
+  </script>
+  <script src="./Checkout example for Bootstrap_files/popper.min.js.下載"></script>
+  <script src="./Checkout example for Bootstrap_files/bootstrap.min.js.下載"></script>
+  <script src="./Checkout example for Bootstrap_files/holder.min.js.下載"></script>
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
